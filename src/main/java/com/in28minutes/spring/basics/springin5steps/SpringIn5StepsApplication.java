@@ -6,7 +6,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.validation.BindingResultUtils;
 
-import basic.BinarySearchImpl;
+import com.in28minutes.spring.basics.springin5steps.basic.BinarySearchImpl;
 
 @SpringBootApplication
 public class SpringIn5StepsApplication {
