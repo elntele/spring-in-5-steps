@@ -17,4 +17,19 @@ public class SomeCdiBusiness {
 		this.somecdidao = somecdidao;
 	}
 	
+	public int findeGreatest() {
+		
+		int greatest=Integer.MIN_VALUE;
+		int [] data = somecdidao.getData();
+		for (int value: data) {
+			
+			if(value>greatest) {
+				
+				value=greatest;
+			}
+		}
+		
+		return greatest;
+	}
+	
 }
